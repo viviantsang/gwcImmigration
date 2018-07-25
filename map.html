@@ -22,16 +22,13 @@
         zoom:6,
         center:{lat:36.7783,lng:-122} //36.7783° N, 119.4179° W cali
       }
-
       // New map
       var map = new google.maps.Map(document.getElementById('map'), options);
-
       // Listen for click on map
       google.maps.event.addListener(map, 'click', function(event){
         // Add marker
     //    addMarker({coords:event.latLng});
       });
-
       /*
       // Add marker
       var marker = new google.maps.Marker({
@@ -39,16 +36,13 @@
         map:map,
         icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
       });
-
       var infoWindow = new google.maps.InfoWindow({
         content:'<h1>Lynn MA</h1>'
       });
-
       marker.addListener('click', function(){
         infoWindow.open(map, marker);
       });
       */
-
       // Array of markers !!!!!!!!!!!!
       var markers = [
 //1
@@ -72,18 +66,107 @@
 //4
         {
           coords:{lat:34.0522,lng:-118.2437},
-//    iconImage:'bluemapicon.png',
+  //        iconImage:'https://s22.postimg.cc/6mepqnbpd/purp_mark.png',
           content:'<h1>Los Angeles County</h1>'
         },
+//5
+        {
+          coords:{lat:36.3136,lng:-121.3542},
+          content: '<h1>Monterey County</h1>'
+
+        },
+//6
+        {
+          coords:{lat:37.8044,lng:-122.2711},
+          content: '<h1>Oakland, CA</h1>'
+        },
+//7
+        {
+          coords:{lat:33.9533,lng:-117.3961},
+          content: '<h1>Riverside County</h1>'
+
+        },
+//8
+        {
+          coords:{lat:38.4747,lng:-121.3542},
+          content: '<h1>Sacramento County</h1>'
+
+        },
+//9
+        {
+          coords:{lat:34.9592,lng:-116.4194},
+          content: '<h1>San Bernardino County</h1>'
+        },
+//10
+        {
+          coords:{lat:32.7157,lng:-117.1611},
+          content: '<h1>San Diego County</h1>'
+        },
+//11
+        {
+          coords:{lat:37.7749,lng:-122.4194},
+          content: '<h1>San Francisco County</h1>'
+        },
+//12
+        {
+          coords:{lat:37.4337,lng:-122.4014},
+          content: '<h1>San Mateo County</h1>'
+        },
+//13
+        {
+          coords:{lat:33.7455,lng:-117.8677},
+          content: '<h1>Santa Ana</h1>'
+        },
+//14
+        {
+          coords:{lat:37.3337,lng:-121.8907},
+          content: '<h1>Santa Clara County</h1>'
+
+        },
+//15
+        {
+          coords:{lat:37.0454,lng:-121.958},
+          content: '<h1>Santa Cruz County</h1>'
+        },
+//16
+        {
+          coords:{lat:38.578,lng:-122.9888},
+          content: '<h1>Sonoma County</h1>'
+
+        },
+//churches
+//1
+        {
+          coords:{lat:37.771457,lng:-122.445828},
+          iconImage:'https://s22.postimg.cc/6mepqnbpd/purp_mark.png',
+          content:'<h1>St.Anges Church</h1>'
+
+        },
+//2
+        {
+          coords:{lat:37.766393,lng:-122.421353},
+          iconImage:'https://s22.postimg.cc/6mepqnbpd/purp_mark.png',
+          content:'<h1>Episcopal Church of St. John the Evangelist</h1>'
+        },
+//3
+      {
+        coords:{lat:37.764651,lng:-122.46166},
+        iconImage:'https://s22.postimg.cc/6mepqnbpd/purp_mark.png',
+        content:'<h1> St.John of God </h1>'
+      },
+//4
+      {
+        coords:{lat:37.866927,lng:-122.46166},
+        iconImage:'https://s22.postimg.cc/6mepqnbpd/purp_mark.png',
+        content:'<h1> St.John of God </h1>'
+      }
 
       ];
-
       // Loop through markers
       for(var i = 0;i < markers.length;i++){
         // Add marker
         addMarker(markers[i]);
       }
-
       // Add Marker Function
       function addMarker(props){
         var marker = new google.maps.Marker({
@@ -91,19 +174,16 @@
           map:map,
           //icon:props.iconImage
         });
-
         // Check for customicon
         if(props.iconImage){
           // Set icon image
           marker.setIcon(props.iconImage);
         }
-
         // Check content
         if(props.content){
           var infoWindow = new google.maps.InfoWindow({
             content:props.content
           });
-
           marker.addListener('click', function(){
             infoWindow.open(map, marker);
           });
@@ -114,7 +194,6 @@
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsqafMrW2N8PnNs6pDTIm66uwLc6BMvL4&callback=initMap">
 #AIzaSyAsqafMrW2N8PnNs6pDTIm66uwLc6BMvL4
-
     </script>
 </body>
 </html>
