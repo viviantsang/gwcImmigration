@@ -1,6 +1,3 @@
-
-$(function() {
-
 /*NAV BAR DONT TOUCH*/
   // When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickyBar()};
@@ -25,4 +22,3 @@ function stickyBar() {
     e.preventDefault();
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
-});
