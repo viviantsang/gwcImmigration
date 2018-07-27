@@ -508,6 +508,38 @@ img {
     height:40%;
     width: 40%;
     padding: 14px;
+}
+
+/*typing animation begins here*/
+.blinking {
+	margin-left: 10%;
+    display: inline-block;
+}
+
+h4 {
+	font-size: 30px;
+    font-family: 'Barlow Condensed';
+    color: #000;
+    border-right:4px solid #000;
+
+	overflow: hidden;
+	white-space:nowrap;    
+    animation: typing 10s steps(38) forwards,
+    blink-caret .8s step-end infinite;
+    animation-iteration-count: infinite;
+}
 
 
+@keyframes blink-caret {
+	from,to {border-color:transparent;}
+    50% {border-color: #000;}
+ }
+
+
+@keyframes typing {
+0% {width: 0%;}
+30% {width: 100%;}
+80% {width: 100%;}
+90% {width: 0%;}
+100% {width: 0%;}
 }
