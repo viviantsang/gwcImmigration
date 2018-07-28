@@ -4,6 +4,7 @@
 #navbar {
   overflow: hidden;
   background-color: #333;
+  z-index: 2;
 }
 /* Navbar links */
 #navbar a {
@@ -13,6 +14,7 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  z-index: 2;
 }
 
 /* Page content */
@@ -32,6 +34,13 @@
   padding-top: 60px;
 }
 
+/*ALL HEADING FONTS GO HERE PLS*/
+h3 {font-family: 'times new roman';
+}
+
+p{font-family: 'times new roman';
+
+}
 
 /* map stuff */
 #map{
@@ -105,11 +114,15 @@ section h1 {
   opacity: .5;
 }
 
+section{padding: 70px 50px 75px 50px;
 
+    word-wrap: break-word;
+}
 
 #section01 a {
   padding-top: 60px;
 }
+
 #section01 a span {
   position: absolute;
   top: 0;
@@ -127,8 +140,9 @@ section h1 {
 
 
 #section02 a {
-  padding-top: 60px;
+  padding: 60px;
 }
+
 #section02 a span {
   position: absolute;
   top: 0;
@@ -158,6 +172,7 @@ section h1 {
 
 
 #section03 a {
+
   padding-top: 60px;
 }
 #section03 a span {
@@ -292,7 +307,9 @@ section h1 {
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
   animation: sdb05 1.5s infinite;
-  box-sizing: border-box;
+
+
+
 }
 @-webkit-keyframes sdb05 {
   0% {
@@ -498,7 +515,8 @@ a:visited {
 }
 
 h3 {font-family: verdana;
-	text-align: center
+	text-align: center;
+	padding: 0px 0px 20px 0px;
 }
 
 img {
