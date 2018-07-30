@@ -265,6 +265,9 @@ section{padding: 70px 50px 75px 50px;
   animation: sdb04 2s infinite;
   box-sizing: border-box;
 }
+.locate {
+  padding-top: 170px;
+}
 @-webkit-keyframes sdb04 {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
