@@ -637,8 +637,8 @@ body {
 background-color:#4eb5f1;
 }
 
-.btn:hover {
-  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+/*.btn:hover {
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;*/
 }
 .white {
   color: #ffffff;
