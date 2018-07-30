@@ -485,6 +485,42 @@
       }
     }
   </script>
+  
+  <style>
+  #legend {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+    width: 150px;
+  }
+  #legend h3 {
+        margin-top: 0;
+      }
+  #legend img {
+        vertical-align: middle;
+      }
+
+</style>
+
+<script>
+  var legend = document.getElementById('legend');
+  var div = document.createElement('div');
+  div.innerHTML = '<img src= "https://s22.postimg.cc/6mepqnbpd/purp_mark.png"> ' + "Churches";
+  legend.appendChild(div);
+
+  var legend = document.getElementById('legend');
+  var div = document.createElement('div');
+  div.innerHTML = '<img src= "https://s22.postimg.cc/3sqq4cafl/blue_marker.png"> ' + "Restaurants";
+  legend.appendChild(div);
+
+  var legend = document.getElementById('legend');
+  var div = document.createElement('div');
+  div.innerHTML = '<img src= "https://s22.postimg.cc/95jr0jblt/red_mark.png"> ' + "Counties";
+  legend.appendChild(div);
+</script>
+  
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsqafMrW2N8PnNs6pDTIm66uwLc6BMvL4&callback=initMap">
 #AIzaSyAsqafMrW2N8PnNs6pDTIm66uwLc6BMvL4
