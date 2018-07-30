@@ -48,6 +48,14 @@ p{font-family: 'times new roman';
       width:100%;
     }
 
+
+/* text boxes */
+.box{
+  box-shadow: 0 4px 8 px 0 rgba (0, 0, 0, 0.2)
+  background: black;
+  height: 100%;
+}
+
 /* scrolling css */
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
@@ -243,6 +251,7 @@ section{padding: 70px 50px 75px 50px;
     opacity: 0;
   }
 }
+
 
 
 
