@@ -408,7 +408,7 @@ background-color:#4eb5f1;
   color: #fff
 }
 /* mission statement css */
-.right {
+/*.right {
     position: absolute;
     right: 100px;
     width: 400px;
@@ -416,7 +416,7 @@ background-color:#4eb5f1;
     padding: 10px;
 	margin-top:100px;
 	font-size:20px;
-}
+}*/
 		    
 .mission{
 	position: absolute;
@@ -427,6 +427,6 @@ background-color:#4eb5f1;
 div.transbox {
   margin: 30px;
   background-color: #ffffff;
-  border-radius: 4px;
+  border-radius: 6px;
   border: 1px solid white; /* For IE8 and earlier */
 }
