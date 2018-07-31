@@ -392,7 +392,7 @@ body {
 	-o-transition: .3s;
 	display: inline-block;
 	background-color:#4eb5f1;
-	z-index: 2;
+	z-index: 5;
 }
 
 .btn:hover {
