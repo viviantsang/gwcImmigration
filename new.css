@@ -72,8 +72,9 @@ section::after {
   content: '';
   width: 100%;
   height: 80%;
-  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 120%,rgba(0,0,0,.8) 100%);
   z-index: 0;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 120%,rgba(0,0,0,.8) 100%);
+  
 
 }
 section h1 {
@@ -398,6 +399,7 @@ body {
 
 .btn:hover {
   cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+	z-index: 2
 }
 .white {
   color: #ffffff;
