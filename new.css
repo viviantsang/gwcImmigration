@@ -62,7 +62,7 @@ html, body {
 section {
   position: relative;
   height: 100%;
-  background:#D5A6A6;
+  background:#ADDBE8;
 
 }
 section::after {
@@ -94,7 +94,7 @@ section h1 {
 
 #section01 { background: url(architecture-area-bay-356968.jpg) center center / cover no-repeat;}
 #section02 { background: url(architecture-art-blue-sky-670530.jpg) center center / cover no-repeat;}
-#section03 { background: url(backlit-clouds-dusk-853168.jpg) center center / cover no-repeat;}
+/* #section03 { background: url(backlit-clouds-dusk-853168.jpg) center center / cover no-repeat;} */
 /*#section04 { background: url(above-art-background-733852.jpg) center center / cover no-repeat;}
 #section05 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;}*/
 
