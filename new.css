@@ -407,3 +407,11 @@ background-color:#4eb5f1;
   background-color:#4095c6;
   color: #fff
 }
+/* mission statement css */
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 30px;
+}
