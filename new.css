@@ -423,12 +423,11 @@ background-color:#4eb5f1;
 	right:110px;
 	width:400px;
 	font-size:35px;
-	font-family: "Open Sans";
 }
 div.transbox {
   margin: 50px;
   background-color: #ffffff;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 13px;
+  padding: 12px;
   border: 1px solid white; /* For IE8 and earlier */
 }
