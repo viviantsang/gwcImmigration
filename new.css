@@ -414,11 +414,11 @@ body {
 /* mission statement css */
 .right {
     position: absolute;
-    right: 100px;
-    width: 400px;
+    right: 90px;
+    width: 430px;
     border: 3px solid black;
-    padding: 10px;
-	margin-top:110px;
+    padding: 12px;
+	margin-top:120px;
 	font-size:15px;
 }
 		    
