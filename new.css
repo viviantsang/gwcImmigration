@@ -460,9 +460,9 @@ div.transbox {
   font-size:17px;
   font-weight:bold;
 }
-  /*text font for the rights words*/
-.rights {
-  font-family:'Arial';
-  font-size:19px;
+/* about us title */
+.aboutustitle{
+  font-family:"Arial";
+  font-size: 19px;
+  font-weight: 300;
 }
-
