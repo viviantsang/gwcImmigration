@@ -416,6 +416,7 @@ body {
 	-o-transition: .3s;
 	display: inline-block;
 	background-color:#4eb5f1;
+	font-color: white;
 	z-index: 10;
 }
 
