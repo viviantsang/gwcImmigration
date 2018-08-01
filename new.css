@@ -315,14 +315,15 @@ h3 {font-family: verdana;
   position: absolute;
   top: 60%;
   left: 25%;
-	margin-left: 10%;
+  margin-left: 10%;
   z-index: 3;
-    display: inline-block;
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Barlow Regular'), local('Barlow-Regular'), url(https://fonts.gstatic.com/s/barlow/v1/7cHpv4kjgoGqM7E_Ass5ynghnQci.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  display: inline-block;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Barlow Regular'), local('Barlow-Regular'), url(https://fonts.gstatic.com/s/barlow/v1/7cHpv4kjgoGqM7E_Ass5ynghnQci.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-color: white;
 
 }
 
